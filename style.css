@@ -1,7 +1,7 @@
 body{
     margin: auto;
     padding: auto;
-    background-color: #5a738d;
+    background-color: #Faf7f7;
 }
 header{
     width: 100%;
@@ -10,7 +10,9 @@ header{
 }
 .line{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
+    background-color: #5a738d;
+
 }
 .line > div{
     padding: 20px;
@@ -30,6 +32,22 @@ h1{
     text-shadow: -1px 0 #Faf7f7, 0 1px #Faf7f7, 1px 0 #Faf7f7, 0 -1px #Faf7f7;
 }
 button{
+    width:auto;
+    float:left;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    color: #Faf7f7;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    size: 30px;
+    background-color: #5a738d;
+    border-radius: 10px;
+    border-color: #Faf7f7;
+}
+.LogoBtn{
     width:auto;
     float:left;
     margin-top: 8px;
