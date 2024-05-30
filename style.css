@@ -1,12 +1,20 @@
 body{
     margin: auto;
     padding: auto;
-    background-color: #282828;
+    background-color: #5a738d;
 }
 header{
     width: 100%;
     height: 70%;
-    color: #000;    
+    color: #8395a8;    
+}
+.line{
+    display: flex;
+    flex-wrap: wrap;
+}
+.line > div{
+    padding: 20px;
+    margin: 20px;
 }
 h1{
     position: absolute;
@@ -15,28 +23,90 @@ h1{
     margin-left: 10px;
     margin-top: 10px;
     font-family: 'Alfa Slab One', cursive;
-    color:#39ca74;
+    color:#Faf7f7;
 }
-span{
-    color:rgb(255, 255, 255);
+.ColomaTxt{
+    color: #5a738d;
+    text-shadow: -1px 0 #Faf7f7, 0 1px #Faf7f7, 1px 0 #Faf7f7, 0 -1px #Faf7f7;
 }
-ul{
+button{
     width:auto;
-    float:right;
+    float:left;
     margin-top: 8px;
-}
-li{
     display: inline-block;
     padding: 15px 30px;
-}
-a{
     text-align: center;
-    color: #fff;
+    color: #Faf7f7;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
+    background-color: #5a738d;
 }
-a:hover{
-    color: #f0c330;
+.HomeBtn{
+    width:auto;
+    float:right;
+    margin-top: 8px;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    color: #Faf7f7;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    background-color: #5a738d;
+}
+.PortfolioBtn{
+    width:auto;
+    float:right;
+    margin-top: 8px;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    color: #Faf7f7;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    background-color: #5a738d;
+}
+.AboutBtn{
+    width:auto;
+    float:right;
+    margin-top: 8px;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    color: #Faf7f7;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    background-color: #5a738d;
+}
+.ContactBtn{
+    width:auto;
+    float:right;
+    margin-top: 8px;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    color: #Faf7f7;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    background-color: #5a738d;
+}
+.HomeBtn:hover{
+    color: #8395a8;
+    transition: 0.5s;
+}
+.PortfolioBtn:hover{
+    color: #8395a8;
+    transition: 0.5s;
+}
+.AboutBtn:hover{
+    color: #8395a8;
+    transition: 0.5s;
+}
+.ContactBtn:hover{
+    color: #8395a8;
     transition: 0.5s;
 }
