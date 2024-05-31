@@ -2,38 +2,38 @@ body{
     margin: auto;
     padding: auto;
     background-color: #Faf7f7;
+    scroll-behavior: auto;
 }
 header{
     width: 100%;
     height: 70%;
     color: #8395a8;    
 }
+
 .line{
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     background-color: #5a738d;
-
+    padding: 10px;
+    margin: 10px;
+    
 }
-.line > div{
-    padding: 20px;
-    margin: 20px;
+.headerText{
+    align-content: center;
 }
 h1{
-    position: absolute;
     padding: 3px;
-    float:left;
     margin-left: 10px;
     margin-top: 10px;
     font-family: 'Alfa Slab One', cursive;
     color:#Faf7f7;
 }
-.ColomaTxt{
-    color: #5a738d;
-    text-shadow: -1px 0 #Faf7f7, 0 1px #Faf7f7, 1px 0 #Faf7f7, 0 -1px #Faf7f7;
-}
+
 button{
     width:auto;
-    float:left;
     margin: 10px 10px 10px 10px;
     display: inline-block;
     padding: 15px 30px;
@@ -44,14 +44,16 @@ button{
     font-size: 20px;
     size: 30px;
     background-color: #5a738d;
-    border-radius: 10px;
-    border-color: #Faf7f7;
+}
+.DivLogoBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 .LogoBtn{
     width:auto;
-    float:left;
     margin-top: 8px;
-    display: inline-block;
     padding: 15px 30px;
     text-align: center;
     color: #Faf7f7;
@@ -59,12 +61,23 @@ button{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     background-color: #5a738d;
+    border: none;
+    size: 50px;
 }
+.ColomaTxt{
+    color: #5a738d;
+    text-shadow: -1px 0 #Faf7f7, 0 1px #Faf7f7, 1px 0 #Faf7f7, 0 -1px #Faf7f7;
+}
+.btns{
+    display: flex;
+    justify-CONTENT: flex-end;
+    FLEX-DIRECTION: ROW;
+    ALIGN-ITEMS: CENTER;
+}
+
 .HomeBtn{
     width:auto;
-    float:right;
     margin-top: 8px;
-    display: inline-block;
     padding: 15px 30px;
     text-align: center;
     color: #Faf7f7;
@@ -72,12 +85,13 @@ button{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     background-color: #5a738d;
+    border-radius: 10px;
+    border-color: #Faf7f7;
+
 }
 .PortfolioBtn{
     width:auto;
-    float:right;
     margin-top: 8px;
-    display: inline-block;
     padding: 15px 30px;
     text-align: center;
     color: #Faf7f7;
@@ -85,12 +99,12 @@ button{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     background-color: #5a738d;
+    border-radius: 10px;
+    border-color: #Faf7f7;
 }
 .AboutBtn{
     width:auto;
-    float:right;
     margin-top: 8px;
-    display: inline-block;
     padding: 15px 30px;
     text-align: center;
     color: #Faf7f7;
@@ -98,12 +112,12 @@ button{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     background-color: #5a738d;
+    border-radius: 10px;
+    border-color: #Faf7f7;
 }
 .ContactBtn{
     width:auto;
-    float:right;
     margin-top: 8px;
-    display: inline-block;
     padding: 15px 30px;
     text-align: center;
     color: #Faf7f7;
@@ -111,6 +125,8 @@ button{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     background-color: #5a738d;
+    border-radius: 10px;
+    border-color: #Faf7f7;
 }
 .HomeBtn:hover{
     color: #8395a8;
