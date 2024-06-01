@@ -52,7 +52,6 @@ button{
     flex-direction: row;
 }
 .LogoBtn{
-    width:auto;
     margin-top: 8px;
     padding: 15px 30px;
     text-align: center;
@@ -86,7 +85,7 @@ button{
     font-size: 20px;
     background-color: #5a738d;
     border-radius: 10px;
-    border-color: #Faf7f7;
+    border-style: none;
 
 }
 .PortfolioBtn{
@@ -100,7 +99,7 @@ button{
     font-size: 20px;
     background-color: #5a738d;
     border-radius: 10px;
-    border-color: #Faf7f7;
+    border-style: none;
 }
 .AboutBtn{
     width:auto;
@@ -113,7 +112,7 @@ button{
     font-size: 20px;
     background-color: #5a738d;
     border-radius: 10px;
-    border-color: #Faf7f7;
+    border-style: none;
 }
 .ContactBtn{
     width:auto;
@@ -126,7 +125,7 @@ button{
     font-size: 20px;
     background-color: #5a738d;
     border-radius: 10px;
-    border-color: #Faf7f7;
+    border-style: none;
 }
 .HomeBtn:hover{
     color: #8395a8;
