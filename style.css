@@ -87,18 +87,18 @@ header{
 
 .MartinH1:hover{
     color: #f5de8d;
-    transition: 0.5s;    
+    transition: 0.25s;    
     font-size: 50px;
 }
 .ColomaTxt:hover{
     color: #ce3344;
-    transition: 0.5s;    
+    transition: 0.25s;    
     font-size: 50px;
     text-shadow: -1px 0 #f5de8d, 0 1px #f5de8d, 1px 0 #f5de8d, 0 -1px #f5de8d;
 }
 .HomeBtn:hover, .PortfolioBtn:hover, .AboutBtn:hover, .ContactBtn:hover{
     color: #f5de8d;
-    transition: 0.5s;
+    transition: 0.25s;
     font-size: 25px;
 
 }
