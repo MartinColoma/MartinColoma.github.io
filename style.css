@@ -1,13 +1,13 @@
 body{
     margin: auto;
     padding: auto;
-    background-color: #Faf7f7;
+    background-color: #faf7f7b3;
     scroll-behavior: auto;
 }
 header{
-    width: 100%;
-    height: 70%;
-    color: #8395a8;    
+    width: auto;
+    height: auto;
+    color: #ce3344;    
 }
 
 .line{
@@ -16,56 +16,53 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #5a738d;
-    padding: 10px;
-    margin: 10px;
-    
+    background-color: #ce3344;
+    padding: auto;
+    margin: auto;
+    border-bottom: #f5de8d 2px solid;
+
 }
 .headerText{
     align-content: center;
 }
-h1{
-    padding: 3px;
-    margin-left: 10px;
-    margin-top: 10px;
-    font-family: 'Alfa Slab One', cursive;
-    color:#Faf7f7;
-}
 
-button{
-    width:auto;
-    margin: 10px 10px 10px 10px;
-    display: inline-block;
-    padding: 15px 30px;
-    text-align: center;
-    color: #Faf7f7;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    size: 30px;
-    background-color: #5a738d;
-}
+
 .DivLogoBtn{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
+
 .LogoBtn{
-    margin-top: 8px;
+    display: flex;
+    align-items: center;
     padding: 15px 30px;
-    text-align: center;
-    color: #Faf7f7;
+    text-align: right;
+    color: #faf7f7;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'League Spartan';
     font-size: 20px;
-    background-color: #5a738d;
+    background-color: #ce3344;
     border: none;
-    size: 50px;
+    margin-left: 20px;
 }
-.ColomaTxt{
-    color: #5a738d;
-    text-shadow: -1px 0 #Faf7f7, 0 1px #Faf7f7, 1px 0 #Faf7f7, 0 -1px #Faf7f7;
+.MartinH1 {
+    text-align: center;
+    color: #faf7f7;
+    font-family: 'League Spartan';
+    font-size: 45px; 
+    background-color: #ce3344;
+    vertical-align: text-top; 
+    margin-left: 20px;
+}
+.ColomaTxt {
+    color: #ce3344;
+    text-shadow: -1px 0 #faf7f7, 0 1px #faf7f7, 1px 0 #faf7f7, 0 -1px #faf7f7;
+    font-family: 'League Spartan';
+    font-size: 45px; 
+    margin-left: 10px;
+
 }
 .btns{
     display: flex;
@@ -74,72 +71,34 @@ button{
     ALIGN-ITEMS: CENTER;
 }
 
-.HomeBtn{
+.HomeBtn, .PortfolioBtn, .AboutBtn, .ContactBtn{
     width:auto;
     margin-top: 8px;
     padding: 15px 30px;
     text-align: center;
     color: #Faf7f7;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'League Spartan';
     font-size: 20px;
-    background-color: #5a738d;
-    border-radius: 10px;
+    background-color: #ce3344;
+    border-radius: none;
     border-style: none;
+}
 
+.MartinH1:hover{
+    color: #f5de8d;
+    transition: 0.25s;    
+    font-size: 50px;
 }
-.PortfolioBtn{
-    width:auto;
-    margin-top: 8px;
-    padding: 15px 30px;
-    text-align: center;
-    color: #Faf7f7;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    background-color: #5a738d;
-    border-radius: 10px;
-    border-style: none;
+.ColomaTxt:hover{
+    color: #ce3344;
+    transition: 0.25s;    
+    font-size: 50px;
+    text-shadow: -1px 0 #f5de8d, 0 1px #f5de8d, 1px 0 #f5de8d, 0 -1px #f5de8d;
 }
-.AboutBtn{
-    width:auto;
-    margin-top: 8px;
-    padding: 15px 30px;
-    text-align: center;
-    color: #Faf7f7;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    background-color: #5a738d;
-    border-radius: 10px;
-    border-style: none;
-}
-.ContactBtn{
-    width:auto;
-    margin-top: 8px;
-    padding: 15px 30px;
-    text-align: center;
-    color: #Faf7f7;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    background-color: #5a738d;
-    border-radius: 10px;
-    border-style: none;
-}
-.HomeBtn:hover{
-    color: #8395a8;
-    transition: 0.5s;
-}
-.PortfolioBtn:hover{
-    color: #8395a8;
-    transition: 0.5s;
-}
-.AboutBtn:hover{
-    color: #8395a8;
-    transition: 0.5s;
-}
-.ContactBtn:hover{
-    color: #8395a8;
-    transition: 0.5s;
+.HomeBtn:hover, .PortfolioBtn:hover, .AboutBtn:hover, .ContactBtn:hover{
+    color: #f5de8d;
+    transition: 0.25s;
+    font-size: 25px;
+
 }
