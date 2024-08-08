@@ -1,7 +1,7 @@
 body{
     margin: auto;
     padding: auto;
-    background-color: #faf7f7b3;
+    background-color: #222121;
     scroll-behavior: auto;
 }
 header{
@@ -20,6 +20,7 @@ header{
     padding: auto;
     margin: auto;
     border-bottom: #f5de8d 2px solid;
+    height: 100px;
 
 }
 .headerText{
@@ -43,15 +44,16 @@ header{
     text-decoration: none;
     font-family: 'League Spartan';
     font-size: 20px;
-    background-color: #ce3344;
+    background-color: none;
     border: none;
     margin-left: 20px;
+    size: 100px;
 }
 .MartinH1 {
     text-align: center;
     color: #faf7f7;
     font-family: 'League Spartan';
-    font-size: 45px; 
+    font-size: 40px; 
     background-color: #ce3344;
     vertical-align: text-top; 
     margin-left: 20px;
@@ -60,7 +62,7 @@ header{
     color: #ce3344;
     text-shadow: -1px 0 #faf7f7, 0 1px #faf7f7, 1px 0 #faf7f7, 0 -1px #faf7f7;
     font-family: 'League Spartan';
-    font-size: 45px; 
+    font-size: 40px; 
     margin-left: 10px;
 
 }
@@ -73,7 +75,6 @@ header{
 
 .HomeBtn, .PortfolioBtn, .AboutBtn, .ContactBtn{
     width:auto;
-    margin-top: 8px;
     padding: 15px 30px;
     text-align: center;
     color: #Faf7f7;
@@ -88,17 +89,17 @@ header{
 .MartinH1:hover{
     color: #f5de8d;
     transition: 0.25s;    
-    font-size: 50px;
+    font-size: 42px;
 }
 .ColomaTxt:hover{
     color: #ce3344;
     transition: 0.25s;    
-    font-size: 50px;
+    font-size: 42px;
     text-shadow: -1px 0 #f5de8d, 0 1px #f5de8d, 1px 0 #f5de8d, 0 -1px #f5de8d;
 }
 .HomeBtn:hover, .PortfolioBtn:hover, .AboutBtn:hover, .ContactBtn:hover{
     color: #f5de8d;
     transition: 0.25s;
-    font-size: 25px;
+    font-size: 22px;
 
 }
