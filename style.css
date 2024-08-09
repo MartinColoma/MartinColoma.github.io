@@ -3,6 +3,8 @@ body{
     padding: auto;
     background-color: #222121;
     scroll-behavior: auto;
+
+    
 }
 header{
     width: auto;
@@ -12,10 +14,12 @@ header{
 
 .line{
     display: flex;
-    flex-wrap: wrap; 
-    flex-direction: row;
+/*     flex-wrap: wrap; 
+    flex-direction: row; */
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+/*     justify-content: space-between; */
+    justify-content: center;
     background-color: #ce3344;
     padding: auto;
     margin: auto;
@@ -35,31 +39,29 @@ header{
     flex-direction: row;
 }
 
-.LogoBtn{
+.LogoTxtBtn{
     display: flex;
     align-items: center;
-    padding: 15px 30px;
-    text-align: right;
+    text-align: left;
     color: #faf7f7;
     text-decoration: none;
     font-family: 'League Spartan';
     font-size: 20px;
     background-color: none;
     border: none;
-    margin-left: 20px;
     size: 100px;
+    margin-left: 20px;
 }
 .MartinH1 {
-    text-align: center;
+    text-align: left;
     color: #faf7f7;
     font-family: 'League Spartan';
     font-size: 40px; 
-    background-color: #ce3344;
+    background-color: #222121;
     vertical-align: text-top; 
-    margin-left: 20px;
 }
 .ColomaTxt {
-    color: #ce3344;
+    color: #222121;
     text-shadow: -1px 0 #faf7f7, 0 1px #faf7f7, 1px 0 #faf7f7, 0 -1px #faf7f7;
     font-family: 'League Spartan';
     font-size: 40px; 
@@ -68,7 +70,7 @@ header{
 }
 .btns{
     display: flex;
-    justify-CONTENT: flex-end;
+    justify-CONTENT: center;
     FLEX-DIRECTION: ROW;
     ALIGN-ITEMS: CENTER;
 }
@@ -92,12 +94,80 @@ header{
     font-size: 42px;
 }
 .ColomaTxt:hover{
-    color: #ce3344;
+    color: #222121;
     transition: 0.25s;    
     font-size: 42px;
     text-shadow: -1px 0 #f5de8d, 0 1px #f5de8d, 1px 0 #f5de8d, 0 -1px #f5de8d;
 }
 .HomeBtn:hover, .PortfolioBtn:hover, .AboutBtn:hover, .ContactBtn:hover{
+    color: #f5de8d;
+    transition: 0.25s;
+    font-size: 22px;
+
+}
+.HomeBody{
+    display: flex;
+    justify-content: center;
+    ALIGN-ITEMS: CENTER;
+    height: 100vh;
+    width: auto;
+    top: 28%;
+}
+.IntroContainer{
+    display: flex;
+    justify-content: center;
+    ALIGN-ITEMS: CENTER;
+}
+.HomePicture img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #f5de8d;
+    width: 200px;
+    height: 200px;
+}
+.IntroTxt{
+    margin-left: 20px;
+}
+.IntroTxt p{
+    margin-left: 20px;
+    color: #Faf7f7;
+    text-decoration: none;
+    font-family: 'League Spartan';
+    font-size: 25px;
+}
+.RTULink{
+    color: #Faf7f7;
+    text-decoration: none;
+    font-family: 'League Spartan';
+    font-size: 20px;
+}
+.RTULink:hover{
+    color: #f5de8d;
+    transition: 0.25s;
+    font-size: 22px;
+}
+.IntroTxtBtns{
+    display: flex;
+    justify-CONTENT: center;
+    FLEX-DIRECTION: ROW;
+    ALIGN-ITEMS: CENTER;
+}
+.FB, .IG, .LinkedIn, .Git{
+    width:auto;
+    padding: 15px 30px;
+    text-align: center;
+    color: #Faf7f7;
+    text-decoration: none;
+    font-family: 'League Spartan';
+    font-size: 20px;
+    background-color: #222121;
+    border-radius: none;
+    border-style: none;
+    margin: 0px 10px 0px 10px;
+}
+.FB:hover, .IG:hover, .LinkedIn:hover, .Git:hover{
     color: #f5de8d;
     transition: 0.25s;
     font-size: 22px;
