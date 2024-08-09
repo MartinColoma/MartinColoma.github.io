@@ -3,6 +3,8 @@ body{
     padding: auto;
     background-color: #222121;
     scroll-behavior: auto;
+
+    
 }
 header{
     width: auto;
@@ -12,10 +14,12 @@ header{
 
 .line{
     display: flex;
-    flex-wrap: wrap; 
-    flex-direction: row;
+/*     flex-wrap: wrap; 
+    flex-direction: row; */
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+/*     justify-content: space-between; */
+    justify-content: center;
     background-color: #ce3344;
     padding: auto;
     margin: auto;
@@ -102,4 +106,34 @@ header{
     transition: 0.25s;
     font-size: 22px;
 
+}
+.HomeContainer{
+    display: flex;
+    justify-content: center;
+    ALIGN-ITEMS: CENTER;
+    height: 89.5vh;
+    top: 28%;
+}
+.HomePicture{
+    top: 28%;
+}
+.HomePicture img{
+    border-radius: 50%;
+    border: 2px solid #f5de8d;
+    width: 250px;
+    height: 250px;
+}
+
+.Cont1, .Cont2, .Cont3, .Cont4{
+    height: 100vh;
+    width:auto;
+    padding: 15px 30px;
+    text-align: center;
+    color: #Faf7f7;
+    text-decoration: none;
+    font-family: 'League Spartan';
+    font-size: 20px;
+    background-color: #ce3344;
+    border-radius: none;
+    border-style: none;
 }
