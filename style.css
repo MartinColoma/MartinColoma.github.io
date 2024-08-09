@@ -3,8 +3,12 @@ body{
     padding: auto;
     background-color: #222121;
     scroll-behavior: auto;
+    overflow: auto;
 
-    
+}
+body::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
 }
 header{
     width: auto;
@@ -112,6 +116,7 @@ header{
     height: 100vh;
     width: auto;
     top: 28%;
+    overflow: hidden;
 }
 .IntroContainer{
     display: flex;
@@ -124,8 +129,8 @@ header{
     align-items: center;
     border-radius: 50%;
     border: 2px solid #f5de8d;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 .IntroTxt{
     margin-left: 20px;
@@ -141,20 +146,21 @@ header{
     color: #Faf7f7;
     text-decoration: none;
     font-family: 'League Spartan';
-    font-size: 20px;
+    font-size: 25px;
 }
 .RTULink:hover{
     color: #f5de8d;
     transition: 0.25s;
-    font-size: 22px;
+    font-size: 27px;
 }
-.IntroTxtBtns{
+.IntroTxtBtns, .SeeProj{
     display: flex;
     justify-CONTENT: center;
     FLEX-DIRECTION: ROW;
     ALIGN-ITEMS: CENTER;
+    margin: 10px 0px 20px 0px;
 }
-.FB, .IG, .LinkedIn, .Git{
+.FB, .IG, .LinkedIn, .Git, .SeeProjBtn{
     width:auto;
     padding: 15px 30px;
     text-align: center;
@@ -167,9 +173,23 @@ header{
     border-style: none;
     margin: 0px 10px 0px 10px;
 }
-.FB:hover, .IG:hover, .LinkedIn:hover, .Git:hover{
+.FB:hover, .IG:hover, .LinkedIn:hover, .Git:hover, .SeeProjBtn:hover{
     color: #f5de8d;
     transition: 0.25s;
     font-size: 22px;
+
+}
+
+.SeeProjBtn{
+
+}
+.ProjBody{
+    display: flex;
+    justify-content: center;
+    ALIGN-ITEMS: CENTER;
+    height: 100vh;
+    width: auto;
+    top: 28%;
+
 
 }
