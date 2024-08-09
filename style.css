@@ -108,7 +108,7 @@ header{
 .HomeBody{
     display: flex;
     justify-content: center;
-    ALIGN-ITEMS: flex-start;
+    ALIGN-ITEMS: CENTER;
     height: 100vh;
     width: auto;
     top: 28%;
@@ -117,10 +117,7 @@ header{
     display: flex;
     justify-content: center;
     ALIGN-ITEMS: CENTER;
-    top: 28%;
-    margin-top: 30px;
 }
-
 .HomePicture img{
     display: flex;
     justify-content: center;
@@ -168,7 +165,6 @@ header{
     background-color: #222121;
     border-radius: none;
     border-style: none;
-    size: 48px;
     margin: 0px 10px 0px 10px;
 }
 .FB:hover, .IG:hover, .LinkedIn:hover, .Git:hover{
