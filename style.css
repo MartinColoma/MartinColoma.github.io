@@ -10,16 +10,48 @@ body::-webkit-scrollbar{
     width: 0px;
     background: transparent;
 } /* hides the scrollbar in the webpage */
-header{
+
+
+.HomeBody{
+    display: flex;
+    justify-content: center;
+    ALIGN-ITEMS: CENTER;
+    height: 100vh;
     width: auto;
+}
+.IntroContainer{
+    display: flex;
+    ALIGN-ITEMS: CENTER;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+}
+.HomePicture{
+    margin: 20px;
+}
+.HomePicture img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #f5de8d;
+    width: 100%;
+    max-width: 300px;
     height: auto;
-    color: #ce3344;    
+}
+.HomePicture:hover{
+    border-radius: 50%;
+    border: 4px solid #f5de8d;
+    transition: 0.75s;
 }
 .LogoBtn{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+
 }
 
 .LogoTxtBtn{
@@ -29,12 +61,10 @@ header{
     color: #faf7f7;
     text-decoration: none;
     font-family: 'League Spartan';
-    font-size: 20px;
-    background-color: none;
     border: none;
-    size: 100px;
-    margin-left: 20px;
+    margin: 20px 20px 20px 20px;
     border-bottom: 1px #Faf7f7 solid;
+    width: auto;
 }
 .MartinH1 {
     text-align: left;
@@ -69,50 +99,19 @@ header{
     text-shadow: -1px 0 #f5de8d, 0 1px #f5de8d, 1px 0 #f5de8d, 0 -1px #f5de8d;
 
 }
-
-.HomeBody{
-    display: flex;
-    justify-content: center;
-    ALIGN-ITEMS: CENTER;
-    height: 100vh;
-    width: auto;
-    top: 28%;
-    overflow: hidden;
-}
-.IntroContainer{
-    display: flex;
-    ALIGN-ITEMS: CENTER;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-}
-.HomePicture img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border: 2px solid #f5de8d;
-    width: 250px;
-    height: 250px;
-}
-.HomePicture:hover{
-    border-radius: 50%;
-    border: 5px solid #f5de8d;
-    transition: 0.75s;
-}
 .IntroTxt{
-    margin-left: 20px;
-
+    width: auto;
+    margin: 0px 20px 0px 20px; /* top right bottom left */
 }
 .IntroTxt p{
-    margin-left: 20px;
     color: #Faf7f7;
     text-decoration: none;
     font-family: 'League Spartan';
     font-size: 25px;
     width: 75vh;
     text-align: justify;
+    padding: 10px;
+    margin: 10px;
 }
 .RTULink{
     color: #Faf7f7;
@@ -150,5 +149,60 @@ header{
     transition: 0.25s;
     font-size: 22px;
 }
+
+@media (max-width: 768px) {
+    .IntroContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .HomePicture img{
+        max-width: 150px;
+    }
+    .LogoTxtBtn{
+        width: auto;
+    }
+    .IntroTxt p {
+        width: auto;
+        font-size: 20px; 
+    }
+    .IntroTxt b {
+        width: auto; 
+        font-size: 20px; 
+    }
+    .LogoTxtBtn {
+        font-size: 18px; 
+        margin: 0px 20px 0px 20px; 
+    }
+
+    .MartinH1, .ColomaTxt {
+        font-size: 30px; 
+    }
+    .MartinH1:hover{
+        color: #f5de8d;
+        transition: 0.25s;    
+        font-size: 32px;
+    
+    }
+    .ColomaTxt:hover{
+        color: #222121;
+        transition: 0.25s;    
+        font-size: 32px;
+        text-shadow: -1px 0 #f5de8d, 0 1px #f5de8d, 1px 0 #f5de8d, 0 -1px #f5de8d;
+    
+    }
+
+    .FB, .IG, .LinkedIn, .Git, .SeeProjBtn {
+        padding: 10px 20px; 
+        font-size: 18px; 
+    }
+    .FB:hover, .IG:hover, .LinkedIn:hover, .Git:hover, .SeeProjBtn:hover{
+        color: #f5de8d;
+        transition: 0.25s;
+        font-size: 20px;
+    }
+    
+}
+
+
 
 
