@@ -179,7 +179,7 @@ body::-webkit-scrollbar{
         font-size: 30px; 
     }
     .MartinH1:hover{
-        color: #f5de8d;
+        color: #f5de8d; 
         transition: 0.25s;    
         font-size: 32px;
     
