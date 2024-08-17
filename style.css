@@ -156,7 +156,7 @@ body::-webkit-scrollbar{
         text-align: center;
     }
     .HomePicture img{
-        max-width: 150px;
+        max-width: 200px;
     }
     .LogoTxtBtn{
         width: auto;
@@ -203,6 +203,57 @@ body::-webkit-scrollbar{
     
 }
 
+@media (max-width: 480px) {
+    .IntroContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .HomePicture img{
+        max-width: 150px;
+    }
+    .LogoTxtBtn{
+        width: auto;
+    }
+    .IntroTxt p {
+        width: auto;
+        font-size: 20px; 
+    }
+    .IntroTxt b {
+        width: auto; 
+        font-size: 20px; 
+    }
+    .LogoTxtBtn {
+        font-size: 18px; 
+        margin: 0px 20px 0px 20px; 
+    }
 
+    .MartinH1, .ColomaTxt {
+        font-size: 30px; 
+    }
+    .MartinH1:hover{
+        color: #f5de8d;
+        transition: 0.25s;    
+        font-size: 32px;
+    
+    }
+    .ColomaTxt:hover{
+        color: #222121;
+        transition: 0.25s;    
+        font-size: 32px;
+        text-shadow: -1px 0 #f5de8d, 0 1px #f5de8d, 1px 0 #f5de8d, 0 -1px #f5de8d;
+    
+    }
+
+    .FB, .IG, .LinkedIn, .Git, .SeeProjBtn {
+        padding: 10px 20px; 
+        font-size: 18px; 
+    }
+    .FB:hover, .IG:hover, .LinkedIn:hover, .Git:hover, .SeeProjBtn:hover{
+        color: #f5de8d;
+        transition: 0.25s;
+        font-size: 20px;
+    }
+    
+}
 
 
