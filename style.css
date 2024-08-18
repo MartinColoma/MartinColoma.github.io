@@ -1,23 +1,22 @@
 body{
     margin: auto;
     padding: auto;
-    background-color: #222121;
     scroll-behavior: auto;
     overflow: auto;
-
 }
 body::-webkit-scrollbar{
     width: 0px;
     background: transparent;
 } /* hides the scrollbar in the webpage */
 
-
+/* Start Region of HomeBody */
 .HomeBody{
     display: flex;
     justify-content: center;
     ALIGN-ITEMS: CENTER;
     height: 100vh;
     width: auto;
+    background-color: #222121;
 }
 .IntroContainer{
     display: flex;
@@ -53,7 +52,6 @@ body::-webkit-scrollbar{
     flex-direction: row;
 
 }
-
 .LogoTxtBtn{
     display: flex;
     align-items: center;
@@ -108,7 +106,7 @@ body::-webkit-scrollbar{
     text-decoration: none;
     font-family: 'League Spartan';
     font-size: 25px;
-    max-width: 80vh;
+    max-width: 70vh;
     width: auto;
     text-align: justify;
     padding: 10px;
@@ -189,9 +187,7 @@ body::-webkit-scrollbar{
         transition: 0.25s;    
         font-size: 32px;
         text-shadow: -1px 0 #f5de8d, 0 1px #f5de8d, 1px 0 #f5de8d, 0 -1px #f5de8d;
-    
     }
-
     .FB, .IG, .LinkedIn, .Git, .Email, .SeeProjBtn {
         padding: 10px 20px; 
         font-size: 18px; 
@@ -203,7 +199,6 @@ body::-webkit-scrollbar{
     }
     
 }
-
 @media (max-width: 480px) {
     .IntroContainer {
         flex-direction: column;
@@ -296,3 +291,128 @@ body::-webkit-scrollbar{
     border-style: solid;
     border-color: #333 transparent transparent transparent; 
 }
+/* End Region of Homebody */
+.Gradient1{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, #222121 0%, #444141 25%, #888181 50%, #ccc1c1 75%, #faf7f7 100%);
+}
+/* Start Region of ProjectBody */
+.ProjectBody{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: baseline;
+    height: 100vh;
+    width: auto;
+    background-color: #Faf7f7;
+}
+.ProjectContainer{
+    display: flex;
+    ALIGN-ITEMS: CENTER;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+}
+
+.ProjHeader{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #faf7f7;
+    text-decoration: none;
+    font-family: 'League Spartan';
+    border: none;
+    margin: 50px 20px 20px 20px;
+    width: auto;
+}
+.ProjTxt {
+    text-align: left;
+    color: #222121;
+    font-family: 'League Spartan';
+    font-size: 50px; 
+    background-color: #faf7f7;
+    vertical-align: text-top; 
+}
+.ProjTxtLine{
+    background-color: #222121;
+    max-width: 500px;
+    width: auto;
+    height: 3px;
+    border: 1px #222121 solid;
+    border-radius: 20px;
+}
+.ProjTxt:hover{
+    color: #f5de8d;
+    transition: 0.25s;    
+    font-size: 55px;
+    text-shadow: -1px 0 #222121, 0 1px #222121, 1px 0 #222121, 0 -1px #222121;
+}
+.ProjTxtLine:hover{
+    background-color: #f5de8d;
+    transition: 0.25s;    
+    font-size: 55px;
+    text-shadow: -1px 0 #222121, 0 1px #222121, 1px 0 #222121, 0 -1px #222121;
+    box-shadow: -1px 0 #222121, 0 1px #222121, 1px 0 #222121, 0 -1px #222121;
+}
+.ProjectList{
+    display: flex;
+    ALIGN-ITEMS: CENTER;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    max-width: 95vh;
+    width: auto;
+    max-height: 69vh;
+    height: auto;
+    scroll-behavior: auto;
+    overflow: scroll;
+    white-space: nowrap;
+}
+.ProjectList::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+
+} /* hides the scrollbar in the webpage */
+
+.Proj1, .Proj2, .Proj3, .Proj4, .Proj5, .Proj6,
+.Proj7, .Proj8, .Proj9{
+    width: auto;
+    max-width: 200px;
+    border: 2px #222121  solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+
+}
+.Proj1 a{
+    padding: 0px;
+}
+
+.Proj1:hover, .Proj2:hover, .Proj3:hover, 
+.Proj4:hover, .Proj5:hover, .Proj6:hover, 
+.Proj7:hover, .Proj8:hover, .Proj9:hover{
+    background-color: #f5de8d;
+    width: auto;
+    height: 300px;
+}
+
+.CoverPicP1 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+.TitleP1{
+    margin: 10px 0px 0px 0px;
+}
+/* End region of ProjectBody */
+
+
+
