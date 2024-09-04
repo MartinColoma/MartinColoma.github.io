@@ -1,6 +1,5 @@
 body{
     margin: auto;
-    padding: auto;
     scroll-behavior: auto;
     overflow: auto;
 }
@@ -343,6 +342,7 @@ body::-webkit-scrollbar{
     height: 3px;
     border: 1px #222121 solid;
     border-radius: 20px;
+    margin: 0px 0px 10px 0px;
 }
 .ProjTxt:hover{
     color: #f5de8d;
@@ -357,6 +357,7 @@ body::-webkit-scrollbar{
     text-shadow: -1px 0 #222121, 0 1px #222121, 1px 0 #222121, 0 -1px #222121;
     box-shadow: -1px 0 #222121, 0 1px #222121, 1px 0 #222121, 0 -1px #222121;
 }
+
 .ProjectList{
     display: flex;
     ALIGN-ITEMS: CENTER;
@@ -391,7 +392,15 @@ body::-webkit-scrollbar{
 .Proj1 a{
     padding: 0px;
 }
+.Proj1 p, .Proj2 p, .Proj3 p, .Proj4 p, .Proj5 p, .Proj6 p,
+.Proj7 p, .Proj8 p, .Proj9 p{
+    margin: 20px 0px 0px 0px;
+    color: #222121;
+    text-decoration: none;
+    font-family: 'League Spartan';
+    font-size: 18px;
 
+}
 .Proj1:hover, .Proj2:hover, .Proj3:hover, 
 .Proj4:hover, .Proj5:hover, .Proj6:hover, 
 .Proj7:hover, .Proj8:hover, .Proj9:hover{
@@ -410,9 +419,23 @@ body::-webkit-scrollbar{
     height: auto;
 }
 .TitleP1{
-    margin: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+    color: #222121;
+    text-decoration: none;
+    font-family: 'League Spartan';
+    font-size: 22px;
+    max-width: 70vh;
+    width: auto;
+    text-align: justify;
+    padding-bottom: 5px;
+    border-bottom: 1px #222121 solid;
 }
-/* End region of ProjectBody */
 
+/* End region of ProjectBody */
+.Gradient2{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, #222121 0%, #444141 25%, #888181 50%, #ccc1c1 75%, #faf7f7 100%);
+}
 
 
